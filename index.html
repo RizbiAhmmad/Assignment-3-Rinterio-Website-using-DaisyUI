@@ -14,6 +14,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+   <!-- Font Awesome CDN -->
+   <script src="https://kit.fontawesome.com/cade39330d.js" crossorigin="anonymous"></script>
+
+
 <style>
     .manrope{
         font-family: "Manrope", sans-serif;
@@ -34,8 +38,50 @@
 
   
 </head>
-<body>
-    <h1>Hi</h1>
+<body class="manrope">
+  <main class="bg-gray-100">
+    <div class="container mx-auto p-4 bg-gradient-to-r from-gray-50 to-white">
+        <!--header section-->
+        <header class="flex justify-between py-4">
+            <div class="flex items-center">
+                <i class="fa-solid fa-arrow-right -rotate-45 rounded-full w-4 h-4 bg-lime-200 mt-8 "></i>
+                <h1 class="text-2xl font-bold text-gray-800 mt-8 ">Rinterio</h1>
+
+            </div>
+            <nav class="hidden  lg:flex items-center space-x-6 mt-8 ">
+                <a href="" class="text-gray-400 hover:text-black  hover:font-bold">Home</a>
+                <a href="" class="text-gray-400 hover:text-black  hover:font-bold">Services</a>
+                <a href="" class="text-gray-400 hover:text-black  hover:font-bold">Portfolio</a>
+                <a href="" class="text-gray-400 hover:text-black  hover:font-bold">Blogs</a>
+                <a href="" class="text-gray-400 hover:text-black  hover:font-bold">Contact Us</a>
+            </nav>
+            <div class=" justify-between space-x-16">
+                <i class="fa-solid fa-magnifying-glass rounded-full bg-white text-gray-400 hover:text-black  absolute mt-10"></i>
+                <i class="fa-solid fa-cart-shopping  rounded-full bg-white text-gray-400 hover:text-black  absolute mt-10"></i>
+            </div>
+            <button class="inline-block px-2 py-1 bg-lime-300 text-black font-semibold rounded-full hover:bg-green-500 mt-8 ">Book Consult 
+                <i class="fa-solid fa-arrow-right -rotate-45 rounded-full w-4 h-4 text-white bg-black"></i></button>
+
+        </header>
+        <!--Banner Section-->
+        <section class="mx-auto p-8 rounded-lg">
+            <div class="text-center">
+                <img class="mx-auto items-center" src="./assets/banner.png" alt="Barn House Design">
+                <h1 class="text-4xl font-bold text-gray-900 ">A barn house of this design has a <br> striking appearance</h1>
+                <small class="text-gray-600 mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, 
+                    sleek metal <br> accents, and large windows that flood the space with natural light.</small>
+            </div>
+            <div class="text-center">
+                <button class="inline-block px-3 py-1 bg-lime-200 text-black text-center font-semibold rounded-full hover:bg-green-500 mt-8 ">View Details 
+                    <i class="fa-solid fa-arrow-right -rotate-45 rounded-full w-4 h-4 text-black bg-lime-300"></i></button>
+
+            </div>
+          
+          </section>
+
+    </div>
+
+  </main>
     
 </body>
 </html>
